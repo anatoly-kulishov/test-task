@@ -328,15 +328,21 @@
 
 <section class="invitation">
     <div class="container">
-        <h2 class="section-title">Приглашаем вас на конференцию</h2>
-        <div class="invitation__subtitle">Узнайте больше о возможностях платформы</div>
-
-        <div class="invitation__video">
-            <div class="video">
-                <img alt="Video preview" class="video__preview" src="img/video_promo.jpg">
-                <button class="video__play-button">
-                    <img alt="Play" class="video__play-icon" src="img/play.svg">
-                </button>
+        <div class="invitation__container">
+            <h2 class="section-title">Приглашение на конференцию
+                U-Day 2024: Управление конечными устройствами в ИТ (UEM)
+            </h2>
+            <div class="invitation__video">
+                <div class="video">
+                    <img alt="Video preview" class="video__preview" src="img/video_promo.jpg">
+                    <button class="video__play-button">
+                        <svg class="video__play-icon" fill="none" height="275" viewBox="0 0 275 275"
+                             width="275" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="137.5" cy="137.5" fill="#2E2F33" r="137.5"/>
+                            <path d="M206 137.5L103.25 196.823L103.25 78.1773L206 137.5Z" fill="white"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -344,56 +350,60 @@
 
 <section class="bonuses">
     <div class="container">
-        <h2 class="section-title">Бонусы</h2>
+        <div class="bonuses__container">
+            <h2 class="section-title">Бонусы</h2>
 
-        <div class="bonuses__grid">
-            <div class="bonus-card">
-                <div class="bonus-card__header">
-                    <div class="bonus-card__badge">Бонус №1</div>
-                    <div class="bonus-card__icon">
-                        <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_1.png">
+            <div class="bonuses__grid">
+                <div class="bonus-card">
+                    <div class="bonus-card__header">
+                        <div class="bonus-card__badge">БОНУС №1</div>
+                        <div class="bonus-card__icon">
+                            <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_1.png">
+                        </div>
+                    </div>
+                    <div class="bonuses__content">
+                        <h3 class="bonus-card__title">Чек-лист для аудита текущей ситуации </h3>
+                        <p class="bonus-card__description">по процессам управления конечными устройствами в
+                            организации</p>
                     </div>
                 </div>
-                <div class="bonuses__content">
-                    <h3 class="bonus-card__title">Чек-лист для аудита текущей ситуации </h3>
-                    <p class="bonus-card__description">по процессам управления конечными устройствами в организации</p>
-                </div>
-            </div>
-            <div class="bonus-card">
-                <div class="bonus-card__header">
-                    <div class="bonus-card__badge">Бонус №2</div>
-                    <div class="bonus-card__icon">
-                        <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_2.png">
+                <div class="bonus-card">
+                    <div class="bonus-card__header">
+                        <div class="bonus-card__badge">БОНУС №2</div>
+                        <div class="bonus-card__icon">
+                            <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_2.png">
+                        </div>
+                    </div>
+                    <div class="bonuses__content">
+                        <h3 class="bonus-card__title">Дорожная карта внедрения</h3>
+                        <p class="bonus-card__description">UEM-проекта</p>
                     </div>
                 </div>
-                <div class="bonuses__content">
-                    <h3 class="bonus-card__title">Дорожная карта внедрения</h3>
-                    <p class="bonus-card__description">UEM-проекта</p>
-                </div>
-            </div>
-            <div class="bonus-card">
-                <div class="bonus-card__header">
-                    <div class="bonus-card__badge">Бонус №3</div>
-                    <div class="bonus-card__icon">
-                        <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_3.png">
+                <div class="bonus-card">
+                    <div class="bonus-card__header">
+                        <div class="bonus-card__badge">БОНУС №3</div>
+                        <div class="bonus-card__icon">
+                            <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_3.png">
+                        </div>
+                    </div>
+                    <div class="bonuses__content">
+                        <h3 class="bonus-card__title">Топ-10 критических факторов успеха</h3>
+                        <p class="bonus-card__description">внедрения UEM-проекта</p>
                     </div>
                 </div>
-                <div class="bonuses__content">
-                    <h3 class="bonus-card__title">Топ-10 критических факторов успеха</h3>
-                    <p class="bonus-card__description">внедрения UEM-проекта</p>
-                </div>
             </div>
-        </div>
-        <div class="text-center">
-            <button class="button button--primary">Зарегистрироваться</button>
+            <div class="text-center">
+                <button class="button button--primary" style="min-width: 300px; padding: 11px;">Зарегистрироваться
+                </button>
+            </div>
         </div>
     </div>
 </section>
 
 <footer class="footer">
     <div class="container">
-        <div class="footer__container">
-            <div class="footer__left">
+        <div class="footer__container row">
+            <div class="col-3 footer__left-column">
                 <a class="footer__logo" href="#">
                     <img alt="U-CONNECT" class="footer__logo-img" src="img/logo_footer.png">
                 </a>
@@ -412,73 +422,70 @@
                     </a>
                 </div>
             </div>
-
-            <div class="footer__links">
-                <div class="footer__column">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Главная</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Возможности</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Поддержка</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">О нас</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Релизы</a>
-                        </li>
-                    </ul>
+            <div class="col-2">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Главная</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Возможности</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Поддержка</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">О нас</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Релизы</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Обнаружение и инвентаризация</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Мониторинг и аудит</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Автоматизация и скриптинг</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Безопасность и контроль</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Инфопанели и отчет</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Удаленное обслуживание</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Интеграции</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 footer__address-column">
+                <div class="footer__actions-buttons">
+                    <a class="button button--secondary" href="#">
+                        Личный кабинет
+                    </a>
+                    <button class="button button--primary">
+                        Начать
+                    </button>
                 </div>
-                <div class="footer__column">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Обнаружение и инвентаризация</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Мониторинг и аудит</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Автоматизация и скриптинг</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Безопасность и контроль</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Инфопанели и отчет</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Удаленное обслуживание</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Интеграции</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__column footer__address-column">
-                    <div class="footer__actions-buttons">
-                        <a class="button button--secondary" href="#">
-                            Личный кабинет
-                        </a>
-                        <button class="button button--primary">
-                            Начать
-                        </button>
-                    </div>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link" href="tel:+74959505750">+74959505750</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="mailto:info@u-connect.ru">info@u-connect.ru</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="https://u-connect.ru/" target="_blank">u-connect.ru</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="tel:+74959505750">+74959505750</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="mailto:info@u-connect.ru">info@u-connect.ru</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="https://u-connect.ru/" target="_blank">u-connect.ru</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
