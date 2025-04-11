@@ -6,7 +6,6 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="telephone=no" name="format-detection">
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
     <link href="css/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet">
@@ -17,7 +16,7 @@
 </head>
 <body>
 <header class="header">
-    <div class="container header__container">
+    <div class="container header__wrapper">
         <div class="header__first-part">
             <a class="header__logo" href="#">
                 <img alt="U-CONNECT" class="header__logo-img" src="img/logo.svg">
@@ -37,60 +36,55 @@
 </header>
 
 <section class="hero">
-    <div class="container hero__container">
-        <div class="row">
-            <div class="col-12">
-                <div class="hero__content">
-                    <div>
-                        <span class="hero__badge">26 СЕНТЯБРЯ</span>
-                        <span class="hero__badge">ONLINE</span>
-                    </div>
-                    <h1 class="hero__heading">
-                        <span class="hero__title">U-DAY <span class="hero__year">2024</span></span>
-                        <span class="hero__subtitle">Управление конечными<br>устройствами и ИТ (UEM)</span>
-                    </h1>
-                    <p class="hero__description">Экономический эффект от автоматизации <br> процессов работы с конечными
-                        устройствами</p>
-                    <button class="button button--big button--primary">Принять участие</button>
+    <div class="container hero__wrapper">
+        <div class="hero__content">
+            <div>
+                <span class="hero__badge">26 СЕНТЯБРЯ</span>
+                <span class="hero__badge">ONLINE</span>
+            </div>
+            <h1 class="hero__heading">
+                <span class="hero__title">U-DAY <span class="hero__year">2024</span></span>
+                <span class="hero__subtitle">Управление конечными<br>устройствами и ИТ (UEM)</span>
+            </h1>
+            <p class="hero__description">Экономический эффект от автоматизации <br> процессов работы с конечными
+                устройствами</p>
+            <button class="button button--big button--primary">Принять участие</button>
 
-                    <div class="partners hero__partners">
-                        <div class="partners__wrapper">
-                            <div class="organizer__section">
-                                <div class="partners__title">Организатор</div>
-                                <div class="partners__list">
-                                    <img alt="U-Connect" class="partners__logo" src="img/connect_logo.svg">
-                                </div>
-                            </div>
-                            <div class="partners__section">
-                                <div class="partners__title">Партнеры</div>
-                                <div class="partners__list">
-                                    <img alt="Desnol" class="partners__logo" src="img/desnol_logo.svg">
-                                    <img alt="1C" class="partners__logo" src="img/1c_logo.svg">
-                                    <img alt="Selectel" class="partners__logo" src="img/selectel_logo.svg">
-                                    <img alt="C-News" class="partners__logo" src="img/c_news_logo.svg">
-                                    <img alt="ХТЭК" class="partners__logo" src="img/hxtk_logo.svg">
-                                    <img alt="K2TEX" class="partners__logo" src="img/k2tex_logo.svg">
-                                </div>
-                            </div>
+            <div class="partners hero__partners">
+                <div class="partners__wrapper">
+                    <div class="organizer__section">
+                        <div class="partners__title">Организатор</div>
+                        <div class="partners__list">
+                            <img alt="U-Connect" class="partners__logo" src="img/connect_logo.svg">
+                        </div>
+                    </div>
+                    <div class="partners__section">
+                        <div class="partners__title">Партнеры</div>
+                        <div class="partners__list">
+                            <img alt="Desnol" class="partners__logo" src="img/desnol_logo.svg">
+                            <img alt="1C" class="partners__logo" src="img/1c_logo.svg">
+                            <img alt="Selectel" class="partners__logo" src="img/selectel_logo.svg">
+                            <img alt="C-News" class="partners__logo" src="img/c_news_logo.svg">
+                            <img alt="ХТЭК" class="partners__logo" src="img/hxtk_logo.svg">
+                            <img alt="K2TEX" class="partners__logo" src="img/k2tex_logo.svg">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="hero__image">
-            <img alt="U-DAY 2024 Hero Image" class="hero__img" src="img/hero_img_1.png">
+            <img alt="" class="hero__img" src="img/hero_img_1.png">
         </div>
     </div>
     <div class="hero__wave">
-        <img alt="Wave divider" class="hero__wave-img" src="img/hero_waves.png">
+        <img alt="" class="hero__wave-img" src="img/hero_waves.png">
     </div>
 </section>
 
 <section class="about">
     <div class="about__pattern"></div>
     <div class="container">
-        <div class="about__container">
+        <div class="about__wrapper">
             <h2 class="about__title">
                 Обмениваемся идеями, разбираем кейсы, обсуждаем как <br> заработать с U-CONNECT, новые фичи и
                 планы на 2024 — 2025 год
@@ -104,35 +98,39 @@
 
             <div class="stats">
                 <div class="stats__image">
-                    <img alt="" class="stats__img" src="img/hero_img_2.jpg">
+                    <img alt="" class="stats__img" src="img/hero_img_2.png">
                     <div class="stats__counter">250 участников</div>
                     <div class="stats__location">МОСКВА, LOFT ANDERSON RESORT</div>
                 </div>
 
-                <img alt="" class="stats__second-img" src="img/hero_img_3.jpg">
+                <div class="stats_right-block">
+                    <img alt="" class="stats__second-img" src="img/hero_img_3.png">
 
-                <div class="stats__list">
-                    <div class="stats-card">
-                        <div class="stats-card__content">
-                            <h4 class="stats-card__title">
-                                Современные тренды EUM-систем
-                            </h4>
-                        </div>
-                    </div>
+                    <div class="stats__list-outer">
+                        <div class="stats__list">
+                            <div class="stats-card">
+                                <div class="stats-card__content">
+                                    <h4 class="stats-card__title">
+                                        Современные тренды EUM-систем
+                                    </h4>
+                                </div>
+                            </div>
 
-                    <div class="stats-card">
-                        <div class="stats-card__content">
-                            <h4 class="stats-card__title">
-                                Экономию трудовых ресурсов для повышения показателей деятельности отдела ИТ
-                            </h4>
-                        </div>
-                    </div>
+                            <div class="stats-card">
+                                <div class="stats-card__content">
+                                    <h4 class="stats-card__title">
+                                        Экономию трудовых ресурсов для повышения <br> показателей деятельности отдела ИТ
+                                    </h4>
+                                </div>
+                            </div>
 
-                    <div class="stats-card">
-                        <div class="stats-card__content">
-                            <h4 class="stats-card__title">
-                                Подходы к внедрению ИТ-решений EUM – практика, результаты
-                            </h4>
+                            <div class="stats-card">
+                                <div class="stats-card__content">
+                                    <h4 class="stats-card__title">
+                                        Подходы к внедрению ИТ-решений <br> EUM – практика, результаты
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -143,68 +141,73 @@
 
 <section class="speakers">
     <div class="container">
-        <div class="speakers__container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="speakers__title">Наши спикеры</h2>
+        <div class="speakers__wrapper">
+            <h2 class="speakers__title">Наши спикеры</h2>
 
-                    <div class="speakers__grid">
-                        <article class="speaker-card">
-                            <div class="speaker-card__image">
-                                <img alt="Игорь Иваненков" class="speaker-card__img" src="img/speaker_1.png">
-                            </div>
-                            <div class="speaker-card__info">
-                                <div class="speaker-card__name">Игорь Иваненков</div>
-                                <div class="speaker-card__position">CEO</div>
-                                <div class="speaker-card__company">U-CONNECT</div>
-                            </div>
-                        </article>
-
-                        <article class="speaker-card">
-                            <div class="speaker-card__image">
-                                <img alt="Владислав Вулкан" class="speaker-card__img" src="img/speaker_2.png">
-                            </div>
-                            <div class="speaker-card__info">
-                                <div class="speaker-card__name">Владислав Вулкан</div>
-                                <div class="speaker-card__position">Директор продукта</div>
-                            </div>
-                        </article>
-
-                        <article class="speaker-card">
-                            <div class="speaker-card__image">
-                                <img alt="Екатерина Бушманова" class="speaker-card__img" src="img/speaker_3.png">
-                            </div>
-                            <div class="speaker-card__info">
-                                <div class="speaker-card__name">Екатерина Бушманова</div>
-                                <div class="speaker-card__position">Консультант по продукту</div>
-                            </div>
-                        </article>
-
-                        <article class="speaker-card">
-                            <div class="speaker-card__image">
-                                <img alt="Андрей Богатов" class="speaker-card__img" src="img/speaker_4.png">
-                            </div>
-                            <div class="speaker-card__info">
-                                <div class="speaker-card__name">Андрей Богатов</div>
-                                <div class="speaker-card__position">Технический директор</div>
-                            </div>
-                        </article>
-
-                        <article class="speaker-card">
-                            <div class="speaker-card__image">
-                                <img alt="Олег Мачев" class="speaker-card__img" src="img/speaker_5.png">
-                            </div>
-                            <div class="speaker-card__info">
-                                <div class="speaker-card__name">Олег Мачев</div>
-                                <div class="speaker-card__position">Delivery Manager</div>
-                            </div>
-                        </article>
+            <div class="speakers__grid">
+                <article class="speaker-card">
+                    <div class="speaker-card__image">
+                        <img alt="" class="speaker-card__img" src="img/speaker_1.png">
                     </div>
-
-                    <div class="speakers__action">
-                        <button class="button button--big button--primary">Принять участие</button>
+                    <div class="speaker-card__info">
+                        <div class="speaker-card__name">Игорь Иванчиков</div>
+                        <div class="speaker-card__position">CEO U-CONNECT</div>
                     </div>
-                </div>
+                </article>
+
+                <article class="speaker-card">
+                    <div class="speaker-card__image">
+                        <img alt="" class="speaker-card__img" src="img/speaker_2.png">
+                    </div>
+                    <div class="speaker-card__info">
+                        <div class="speaker-card__name">Владислав Ягудин</div>
+                        <div class="speaker-card__position">
+                            Директор продукта <br>
+                            U-CONNECT
+                        </div>
+                    </div>
+                </article>
+
+                <article class="speaker-card">
+                    <div class="speaker-card__image">
+                        <img alt="" class="speaker-card__img" src="img/speaker_3.png">
+                    </div>
+                    <div class="speaker-card__info">
+                        <div class="speaker-card__name">Екатерина Бурдыкина</div>
+                        <div class="speaker-card__position">
+                            Руководитель отдела br продаж U-CONNECT
+                        </div>
+                    </div>
+                </article>
+
+                <article class="speaker-card">
+                    <div class="speaker-card__image">
+                        <img alt="" class="speaker-card__img" src="img/speaker_4.png">
+                    </div>
+                    <div class="speaker-card__info">
+                        <div class="speaker-card__name">Андрей Боганов</div>
+                        <div class="speaker-card__position">
+                            Процессный Архитектор
+                        </div>
+                    </div>
+                </article>
+
+                <article class="speaker-card">
+                    <div class="speaker-card__image">
+                        <img alt="" class="speaker-card__img" src="img/speaker_5.png">
+                    </div>
+                    <div class="speaker-card__info">
+                        <div class="speaker-card__name">Олег Малых</div>
+                        <div class="speaker-card__position">
+                            Senior <br>
+                            Delivery Manager
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="speakers__action">
+                <button class="button button--big button--primary">Принять участие</button>
             </div>
         </div>
     </div>
@@ -212,131 +215,128 @@
 
 <section class="program">
     <div class="container">
-        <div class="program__container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="program__pattern"></div>
-                    <div class="container">
-                        <h2 class="program__title">Программа мероприятия</h2>
+        <div class="program__wrapper">
+            <div class="program__pattern"></div>
+            <h2 class="program__title">Программа мероприятия</h2>
 
-                        <div class="program__grid">
-                            <article class="program-item">
-                                <div class="program-item__time">
-                                    <img alt="Time" class="program-item__clock-icon" src="img/clock.svg">
-                                    10:00
-                                </div>
-                                <div class="program-item__content">
-                                    <h3 class="program-item__title">Тенденции развития рынка управления конечными
-                                        устройствами</h3>
-                                    <p class="program-item__description">Основные тренды развития рынка систем конечного
-                                        управления
-                                        устройствами (UEM). Какие бывают виды и критерии автоматизации инвентаризации
-                                        устройств?</p>
-                                </div>
-                                <div class="program-item__speaker">
-                                    <img alt="Игорь Иваненков" class="program-item__speaker-img"
-                                         src="img/speaker_1.png">
-                                    <div class="program-item__speaker-info">
-                                        <div class="program-item__speaker-name">Игорь Иваненков</div>
-                                        <div class="program-item__speaker-position">CEO U-CONNECT</div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="program-item">
-                                <div class="program-item__time">
-                                    <img alt="Time" class="program-item__clock-icon" src="img/clock.svg">
-                                    11:00
-                                </div>
-                                <div class="program-item__content">
-                                    <h3 class="program-item__title">Что было в U-CONNECT в 2023 году. Развитие продукта
-                                        2024
-                                        –
-                                        2025</h3>
-                                    <p class="program-item__description">Продуктовые новинки, новости продукта, активные
-                                        релизы
-                                        2023</p>
-                                </div>
-                                <div class="program-item__speaker">
-                                    <img alt="Владислав Вулкан" class="program-item__speaker-img"
-                                         src="img/speaker_2.png">
-                                    <div class="program-item__speaker-info">
-                                        <div class="program-item__speaker-name">Владислав Вулкан</div>
-                                        <div class="program-item__speaker-position">Директор продукта</div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="program-item">
-                                <div class="program-item__time">
-                                    <img alt="Time" class="program-item__clock-icon" src="img/clock.svg">
-                                    12:00
-                                </div>
-                                <div class="program-item__content">
-                                    <h3 class="program-item__title">Клиент всегда прав</h3>
-                                    <p class="program-item__description">Как выбирать и внедрять, автоматизация рабочих
-                                        мест
-                                        в
-                                        U-CONNECT,
-                                        отличительные преимущества для российских корпораций. Целевая политика ведения и
-                                        ее
-                                        итоги в
-                                        2024-2025 году</p>
-                                </div>
-                                <div class="program-item__speaker">
-                                    <img alt="Екатерина Бушманова" class="program-item__speaker-img"
-                                         src="img/speaker_3.png">
-                                    <div class="program-item__speaker-info">
-                                        <div class="program-item__speaker-name">Екатерина Бушманова</div>
-                                        <div class="program-item__speaker-position">Консультант по продукту</div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="program-item">
-                                <div class="program-item__time">
-                                    <img alt="Time" class="program-item__clock-icon" src="img/clock.svg">
-                                    13:00
-                                </div>
-                                <div class="program-item__content">
-                                    <h3 class="program-item__title">Управление ИТ-активами и конфигурациями, подход и
-                                        практика</h3>
-                                    <p class="program-item__description">Как нам автоматизировать ИТ-активы, что нового
-                                        в
-                                        нем
-                                        решениях?</p>
-                                </div>
-                                <div class="program-item__speaker">
-                                    <img alt="Андрей Богатов" class="program-item__speaker-img" src="img/speaker_4.png">
-                                    <div class="program-item__speaker-info">
-                                        <div class="program-item__speaker-name">Андрей Богатов</div>
-                                        <div class="program-item__speaker-position">Технический директор</div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="program-item">
-                                <div class="program-item__time">
-                                    <img alt="Time" class="program-item__clock-icon" src="img/clock.svg">
-                                    14:00
-                                </div>
-                                <div class="program-item__content">
-                                    <h3 class="program-item__title">Проект года: Россети (Сетевая компания
-                                        Татарстана)</h3>
-                                    <p class="program-item__description">Опыт построения системы информационной
-                                        безопасности</p>
-                                </div>
-                                <div class="program-item__speaker">
-                                    <img alt="Олег Мачев" class="program-item__speaker-img" src="img/speaker_5.png">
-                                    <div class="program-item__speaker-info">
-                                        <div class="program-item__speaker-name">Олег Мачев</div>
-                                        <div class="program-item__speaker-position">Delivery Manager</div>
-                                    </div>
-                                </div>
-                            </article>
+            <div class="program__grid">
+                <article class="program-item">
+                    <div class="program-item__time">
+                        <img alt="" class="program-item__clock-icon" src="img/clock.svg">
+                        <span>14:00</span>
+                    </div>
+                    <div class="program-item__content">
+                        <h3 class="program-item__title project-item__content-title">
+                            Тенденции развития рынка управления конечными устройствами
+                        </h3>
+                        <p class="program-item__description">
+                            Основные тренды развития рынка систем конечного управления устройствами (EUM).
+                            Оценка business value от комплексной автоматизации управлением конфигурационными
+                            единицами и ИТ-активами
+                        </p>
+                    </div>
+                    <div class="program-item__speaker">
+                        <img alt="" class="program-item__speaker-img"
+                             src="img/speaker_1.png">
+                        <div class="program-item__speaker-info">
+                            <div class="program-item__speaker-name">Игорь Иванчиков</div>
+                            <div class="program-item__speaker-position">CEO U-CONNECT</div>
                         </div>
                     </div>
-                </div>
+                </article>
+
+                <article class="program-item">
+                    <div class="program-item__time">
+                        <img alt="" class="program-item__clock-icon" src="img/clock.svg">
+                        14:20
+                    </div>
+                    <div class="program-item__content">
+                        <h3 class="program-item__title project-item__content-title">
+                            Что было в U-CONNECT в 2023 году.
+                            Развитие продукта. 2024 — 2026
+                        </h3>
+                        <p class="program-item__description">
+                            Продуктовые новинки, новости продукта, активные релизы 2023
+                        </p>
+                    </div>
+                    <div class="program-item__speaker">
+                        <img alt="" class="program-item__speaker-img" src="img/speaker_2.png">
+                        <div class="program-item__speaker-info">
+                            <div class="program-item__speaker-name">Владислав Ягудин</div>
+                            <div class="program-item__speaker-position">Директор продукта U-CONNECT</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="program-item">
+                    <div class="program-item__time">
+                        <img alt="" class="program-item__clock-icon" src="img/clock.svg">
+                        15:00
+                    </div>
+                    <div class="program-item__content">
+                        <h3 class="program-item__title project-item__content-title">Клиент всегда прав</h3>
+                        <p class="program-item__description">
+                            Как продавать не продавая, автоматизация воронки продаж в U-CONNECT, специальные
+                            предложения для участников конференции. Ценовая политика продукта в 2024-2025
+                            году
+                        </p>
+                    </div>
+                    <div class="program-item__speaker">
+                        <img alt="" class="program-item__speaker-img"
+                             src="img/speaker_3.png">
+                        <div class="program-item__speaker-info">
+                            <div class="program-item__speaker-name">Екатерина Бушманова</div>
+                            <div class="program-item__speaker-position">
+                                Руководитель отдела продаж U-CONNECT
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="program-item">
+                    <div class="program-item__time">
+                        <img alt="" class="program-item__clock-icon" src="img/clock.svg">
+                        15:20
+                    </div>
+                    <div class="program-item__content">
+                        <h3 class="program-item__title project-item__content-title">Управление ИТ-активами и
+                            конфигурациями, подход и
+                            практика</h3>
+                        <p class="program-item__description">Как нам автоматизировать ИТ-активы, что нового
+                            в
+                            нем
+                            решениях?</p>
+                    </div>
+                    <div class="program-item__speaker">
+                        <img alt="Андрей Богатов" class="program-item__speaker-img" src="img/speaker_4.png">
+                        <div class="program-item__speaker-info">
+                            <div class="program-item__speaker-name">Андрей Боганов</div>
+                            <div class="program-item__speaker-position">Процессный Архитектор</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="program-item">
+                    <div class="program-item__time">
+                        <img alt="" class="program-item__clock-icon" src="img/clock.svg">
+                        15:40
+                    </div>
+                    <div class="program-item__content">
+                        <h3 class="program-item__title project-item__content-title">
+                            Проект года. Россети (Сетевая компания Татарстана)
+                        </h3>
+                        <p class="program-item__description">
+                            Опыт построения «Единого информационного поля»
+                        </p>
+                    </div>
+                    <div class="program-item__speaker">
+                        <img alt="" class="program-item__speaker-img" src="img/speaker_5.png">
+                        <div class="program-item__speaker-info">
+                            <div class="program-item__speaker-name">Олег Малых</div>
+                            <div class="program-item__speaker-position">Senior Delivery Manager</div>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </div>
@@ -345,46 +345,24 @@
 <section class="partners-section">
     <div class="container">
         <div class="partners-section__wrapper">
-            <div class="row">
-                <div class="col-12">
-                    <div class="pattern-bg"></div>
-                    <div class="container">
-                        <div class="partner-card">
-                            <img alt="Selectel" class="partner-logo" src="img/selectel_logo.svg">
-                            <h3>Стратегический партнер конференции U-day 2024</h3>
-                            <h2>Selectel</h2>
-                            <p>Selectel — российский хостинг-провайдер, работающий с 2008 года. Компания предоставляет
-                                широкий
-                                спектр
-                                IT-услуг: от виртуальных серверов до комплексных облачных решений для крупного бизнеса.
-                                Selectel
-                                входит
-                                в ТОП-5 IaaS-провайдеров России по версии CNews Analytics и iKS-Consulting.</p>
-                            <p>Selectel предоставляет услуги более чем 15 000 клиентов, среди которых Яндекс, Авито,
-                                Lamoda,
-                                Сбербанк,
-                                Тинькофф, Qiwi и другие лидеры рынка. Компания владеет сетью из 6 дата-центров в Москве
-                                и
-                                Санкт-Петербурге общей емкостью более 2000 стоек.</p>
-                        </div>
-
-                        <div class="partner-card">
-                            <img alt="КЭТК" class="partner-logo" src="img/hxtk_logo.svg">
-                            <h3>Партнер конференции — КЭТК</h3>
-                            <h2>КЭТК</h2>
-                            <p>АО «Казанский электротехнический завод» (КЭТК) — одно из ведущих предприятий
-                                оборонно-промышленного
-                                комплекса России, специализирующееся на разработке и производстве сложных наукоемких
-                                электротехнических
-                                изделий.</p>
-                            <p>Предприятие обладает современной производственной базой, высококвалифицированным
-                                персоналом и
-                                устойчивыми
-                                связями с ведущими научно-исследовательскими институтами и конструкторскими бюро
-                                России.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="pattern-bg"></div>
+            <div class="partner-card">
+                <img alt="Selectel" class="partner-logo" src="img/selectel_logo.svg">
+                <h3>Стратегический партнер конференции U-day 2024</h3>
+                <h2>Selectel</h2>
+                <p>Selectel — российский хостинг-провайдер, работающий с 2008 года. Компания предоставляет
+                    широкий
+                    спектр
+                    IT-услуг: от виртуальных серверов до комплексных облачных решений для крупного бизнеса.
+                    Selectel
+                    входит
+                    в ТОП-5 IaaS-провайдеров России по версии CNews Analytics и iKS-Consulting.</p>
+                <p>Selectel предоставляет услуги более чем 15 000 клиентов, среди которых Яндекс, Авито,
+                    Lamoda,
+                    Сбербанк,
+                    Тинькофф, Qiwi и другие лидеры рынка. Компания владеет сетью из 6 дата-центров в Москве
+                    и
+                    Санкт-Петербурге общей емкостью более 2000 стоек.</p>
             </div>
         </div>
     </div>
@@ -392,24 +370,20 @@
 
 <section class="invitation">
     <div class="container">
-        <div class="invitation__container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="section-title">Приглашение на конференцию <br>
-                        U-Day 2024: Управление конечными устройствами в ИТ (UEM)
-                    </h2>
-                    <div class="invitation__video">
-                        <div class="video">
-                            <img alt="Video preview" class="video__preview" src="img/video_promo.jpg">
-                            <button class="video__play-button">
-                                <svg class="video__play-icon" fill="none" height="275" viewBox="0 0 275 275"
-                                     width="275" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="137.5" cy="137.5" fill="#2E2F33" r="137.5"/>
-                                    <path d="M206 137.5L103.25 196.823L103.25 78.1773L206 137.5Z" fill="white"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
+        <div class="invitation__wrapper">
+            <h2 class="section-title">Приглашение на конференцию <br>
+                U-Day 2024: Управление конечными устройствами в ИТ (UEM)
+            </h2>
+            <div class="invitation__video">
+                <div class="video">
+                    <img alt="Video preview" class="video__preview" src="img/video_promo.jpg">
+                    <button class="video__play-button">
+                        <svg class="video__play-icon" fill="none" height="275" viewBox="0 0 275 275"
+                             width="275" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="137.5" cy="137.5" fill="#2E2F33" r="137.5"/>
+                            <path d="M206 137.5L103.25 196.823L103.25 78.1773L206 137.5Z" fill="white"/>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
@@ -418,55 +392,51 @@
 
 <section class="bonuses">
     <div class="container">
-        <div class="bonuses__container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="section-title">Бонусы</h2>
-                    <div class="bonuses__grid">
-                        <div class="bonus-card">
-                            <div class="bonus-card__header">
-                                <div class="bonus-card__badge">БОНУС №1</div>
-                                <div class="bonus-card__icon">
-                                    <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_1.png">
-                                </div>
-                            </div>
-                            <div class="bonuses__content">
-                                <h3 class="bonus-card__title">Чек-лист для аудита текущей ситуации </h3>
-                                <p class="bonus-card__description">по процессам управления конечными устройствами в
-                                    организации</p>
-                            </div>
-                        </div>
-                        <div class="bonus-card">
-                            <div class="bonus-card__header">
-                                <div class="bonus-card__badge">БОНУС №2</div>
-                                <div class="bonus-card__icon">
-                                    <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_2.png">
-                                </div>
-                            </div>
-                            <div class="bonuses__content">
-                                <h3 class="bonus-card__title">Дорожная карта внедрения</h3>
-                                <p class="bonus-card__description">UEM-проекта</p>
-                            </div>
-                        </div>
-                        <div class="bonus-card">
-                            <div class="bonus-card__header">
-                                <div class="bonus-card__badge">БОНУС №3</div>
-                                <div class="bonus-card__icon">
-                                    <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_3.png">
-                                </div>
-                            </div>
-                            <div class="bonuses__content">
-                                <h3 class="bonus-card__title">Топ-10 критических факторов успеха</h3>
-                                <p class="bonus-card__description">внедрения UEM-проекта</p>
-                            </div>
+        <div class="bonuses__wrapper">
+            <h2 class="section-title">Бонусы</h2>
+            <div class="bonuses__grid">
+                <div class="bonus-card">
+                    <div class="bonus-card__header">
+                        <div class="bonus-card__badge">БОНУС №1</div>
+                        <div class="bonus-card__icon">
+                            <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_1.png">
                         </div>
                     </div>
-                    <div class="text-center">
-                        <button class="button button--big button--primary">
-                            Зарегистрироваться
-                        </button>
+                    <div class="bonuses__content">
+                        <h3 class="bonus-card__title">Чек-лист для аудита текущей ситуации </h3>
+                        <p class="bonus-card__description">по процессам управления конечными устройствами в
+                            организации</p>
                     </div>
                 </div>
+                <div class="bonus-card">
+                    <div class="bonus-card__header">
+                        <div class="bonus-card__badge">БОНУС №2</div>
+                        <div class="bonus-card__icon">
+                            <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_2.png">
+                        </div>
+                    </div>
+                    <div class="bonuses__content">
+                        <h3 class="bonus-card__title">Дорожная карта внедрения</h3>
+                        <p class="bonus-card__description">UEM-проекта</p>
+                    </div>
+                </div>
+                <div class="bonus-card">
+                    <div class="bonus-card__header">
+                        <div class="bonus-card__badge">БОНУС №3</div>
+                        <div class="bonus-card__icon">
+                            <img alt="Bonus" class="bonus-card__icon-img" src="img/benefit_3.png">
+                        </div>
+                    </div>
+                    <div class="bonuses__content">
+                        <h3 class="bonus-card__title">Топ-10 критических факторов успеха</h3>
+                        <p class="bonus-card__description">внедрения UEM-проекта</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="button button--big button--primary">
+                    Зарегистрироваться
+                </button>
             </div>
         </div>
     </div>
@@ -474,99 +444,90 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="footer__container">
-            <div class="row">
-                <div class="col-12 col-md-3 footer__left-column">
-                    <a class="footer__logo" href="#">
-                        <img alt="U-CONNECT" class="footer__logo-img" src="img/logo_footer.png">
+        <div class="footer__wrapper">
+            <div class="footer__left-column">
+                <a class="footer__logo" href="#">
+                    <img alt="U-CONNECT" class="footer__logo-img" src="img/logo_footer.png">
+                </a>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#">
+                        <i class="fa fa-telegram" style="font-size:20px"></i>
                     </a>
-                    <div class="footer__social">
-                        <a class="footer__social-link" href="#">
-                            <!--                        <img alt="Telegram" class="footer__social-icon" src="img/telegram.svg">-->
-                            <i class="fa fa-telegram" style="font-size:20px"></i>
-                        </a>
-                        <a class="footer__social-link" href="#">
-                            <!--                        <img alt="YouTube" class="footer__social-icon" src="img/youtube.svg">-->
-                            <i class="fa fa-youtube-play" style="font-size:20px"></i>
-                        </a>
-                        <a class="footer__social-link" href="#">
-                            <!--                        <img alt="Yandex" class="footer__social-icon" src="img/yandex.svg">-->
-                            <i class="fa fa-quote-left" style="font-size:20px"></i>
-                        </a>
-                    </div>
+                    <a class="footer__social-link" href="#">
+                        <i class="fa fa-youtube-play" style="font-size:20px"></i>
+                    </a>
+                    <a class="footer__social-link" href="#">
+                        <i class="fa fa-quote-left" style="font-size:20px"></i>
+                    </a>
                 </div>
-                <div class="col-12 col-md-2">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Главная</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Возможности</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Поддержка</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">О нас</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Релизы</a>
-                        </li>
-                    </ul>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Главная</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Возможности</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Поддержка</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">О нас</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Релизы</a>
+                </li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Обнаружение и инвентаризация</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Мониторинг и аудит</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Автоматизация и скриптинг</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Безопасность и контроль</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Инфопанели и отчет</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Удаленное обслуживание</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Интеграции</a>
+                </li>
+            </ul>
+            <div class="footer__address-column">
+                <div class="footer__actions-buttons">
+                    <a class="button button--small button--secondary" href="#">
+                        Личный кабинет
+                    </a>
+                    <button class="button button--small button--primary">
+                        Начать
+                    </button>
                 </div>
-                <div class="col-12 col-md-4">
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Обнаружение и инвентаризация</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Мониторинг и аудит</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Автоматизация и скриптинг</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Безопасность и контроль</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Инфопанели и отчет</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Удаленное обслуживание</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="#">Интеграции</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-3 footer__address-column">
-                    <div class="footer__actions-buttons">
-                        <a class="button button--small button--secondary" href="#">
-                            Личный кабинет
-                        </a>
-                        <button class="button button--small button--primary">
-                            Начать
-                        </button>
-                    </div>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a class="footer__link" href="tel:+74959505750">+74959505750</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="mailto:info@u-connect.ru">info@u-connect.ru</a>
-                        </li>
-                        <li class="footer__item">
-                            <a class="footer__link" href="https://u-connect.ru/" target="_blank">u-connect.ru</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="tel:+74959505750">+74959505750</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="mailto:info@u-connect.ru">info@u-connect.ru</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="https://u-connect.ru/" target="_blank">u-connect.ru</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="footer__bottom">
         <div class="container">
-            <div class="footer__bottom-container">
+            <div class="footer__bottom-wrapper">
                 <div class="footer__policy">
                     <a class="footer__policy-link" href="#">Юридическая информация</a>
                 </div>
